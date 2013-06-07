@@ -1,7 +1,20 @@
 @import url(resets.css);
 body {
   background: url("../images/map-background.jpg") top left no-repeat #3e4347;
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif; }
+  body h2 {
+    font-size: 27px;
+    color: #212121;
+    font-weight: 600; }
+  body p.intro {
+    font-size: 22px;
+    color: #878787;
+    line-height: 28px;
+    font-weight: 100;
+    padding-top: 30px;
+    width: 336px;
+    height: auto; }
 
 .top-site, .container {
   width: 1100px;
@@ -15,5 +28,7 @@ body {
     margin-bottom: 50px; }
 
 .container {
-  background: #fff;
-  padding: 60px; }
+  background: #fff; }
+  .container .introduction {
+    background: url("../images/intro-background.png") no-repeat bottom right;
+    min-height: 462px; }

@@ -6,6 +6,22 @@ $center: 0 auto;
 body {
   background: url('../images/map-background.jpg') top left no-repeat #3E4347;
   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  h2 {
+    font-size: 27px;
+    color: #212121;
+    font-weight: 600;
+  }
+  p {
+    &.intro {
+      font-size: 22px;
+      color: #878787;
+      line-height: 28px;
+      font-weight: 100;
+      padding-top: 30px;
+      @include size (336 auto);
+    }
+  }
 }
 .top-site {
   @include size (1100 auto);
@@ -20,5 +36,8 @@ body {
 .container {
   @extend .top-site;
   background: #fff;
-  padding: 60px;
+  .introduction {
+    background: url('../images/intro-background.png') no-repeat bottom right;
+    min-height: 462px;
+  }
 }
