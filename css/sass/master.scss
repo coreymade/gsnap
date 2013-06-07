@@ -26,6 +26,12 @@ body {
     }
   }
 }
+::selection {
+	background: #ffb7b7; /* Safari */
+	}
+::-moz-selection {
+	background: #ffb7b7; /* Firefox */
+}
 .top-site {
   @include size (1100 auto);
   margin: $center;
