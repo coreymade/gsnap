@@ -50,5 +50,12 @@ body {
       .container .introduction .download:hover {
         background: #2A2D30; }
   .container .maps {
-    background: #F7F5F1;
-    border-top: 1px solid #ECEAE6; }
+    background: url("../images/maps-image.png") no-repeat bottom left #f7f5f1;
+    border-top: 1px solid #ECEAE6;
+    min-height: 612px; }
+    .container .maps .maps-heading {
+      width: 333px;
+      text-align: right;
+      float: right;
+      display: inline;
+      margin-right: 60px; }
