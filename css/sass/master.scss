@@ -44,5 +44,16 @@ body {
     min-height: 501px;
     padding-top: 60px;
     padding-left: 60px;
+    .download {
+      background: #3E4347;
+      display:block;
+      padding: 10px 20px;
+      max-width: 230px;
+      margin-top: 55px;
+      border-radius: 5px;
+      &:hover {
+        background: #2A2D30;
+      }
+    }
   }
 }
