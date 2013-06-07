@@ -1,6 +1,6 @@
 @import url(resets.css);
 body {
-  background: url("../images/map-background.jpg") top left no-repeat #3e4347;
+  background: url("../images/map-background.jpg") top left no-repeat #3e4347 fixed;
   background-size: cover;
   font-family: 'Open Sans', sans-serif; }
   body h2 {
