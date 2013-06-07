@@ -1,2 +1,19 @@
+@import url(resets.css);
 body {
-  background: black; }
+  background: url("../images/map-background.jpg") top left no-repeat #3e4347;
+  background-size: cover; }
+
+.top-site, .container {
+  width: 1100px;
+  height: auto;
+  margin: 0 auto; }
+  .top-site .logo, .container .logo {
+    width: 140px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+.container {
+  background: #fff;
+  padding: 60px; }

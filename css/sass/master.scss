@@ -1,5 +1,24 @@
 @import '../bourbon/bourbon';
+@import 'resets.css';
+
+$center: 0 auto;
 
 body {
-  background: black;
+  background: url('../images/map-background.jpg') top left no-repeat #3E4347;
+  background-size: cover;
+}
+.top-site {
+  @include size (1100 auto);
+  margin: $center;
+  .logo {
+    @include size (140 auto);
+    margin: $center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.container {
+  @extend .top-site;
+  background: #fff;
+  padding: 60px;
 }
