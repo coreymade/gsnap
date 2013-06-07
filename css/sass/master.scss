@@ -11,12 +11,15 @@ body {
     font-size: 27px;
     color: #212121;
     font-weight: 600;
+    &.intro {
+      margin-top: 80px;
+    }
   }
   p {
     &.intro {
       font-size: 22px;
       color: #878787;
-      line-height: 28px;
+      line-height: 40px;
       font-weight: 100;
       padding-top: 30px;
       @include size (336 auto);
@@ -39,5 +42,7 @@ body {
   .introduction {
     background: url('../images/intro-background.png') no-repeat bottom right;
     min-height: 462px;
+    padding-top: 60px;
+    padding-left: 60px;
   }
 }
